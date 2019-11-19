@@ -1,6 +1,7 @@
 export * from './bound';
 export * from './call';
 export * from './curry';
+export * from './deferred';
 export * from './failWith';
 export * from './flip';
 export * from './hasOwnProperty';
