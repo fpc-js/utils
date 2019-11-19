@@ -1,4 +1,4 @@
-import { empty } from './internals';
+const empty = {};
 
 export const lazy = (fn, ...args) => {
   let result = empty;
