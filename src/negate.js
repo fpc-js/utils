@@ -1,1 +1,6 @@
-export const negate = fn => (...args) => !fn(...args);
+import { expectFunction } from '@fpc/types';
+
+export const negate = fn => (
+  /* eslint-disable no-sequences */
+  expectFunction(fn), (...args) => !fn(...args)
+);
