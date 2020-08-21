@@ -12,8 +12,6 @@ export * from './last';
 export * from './lazy';
 export * from './log';
 export * from './negate';
-export * from './pair';
-export * from './pass';
 export * from './prop';
 export * from './range';
 export * from './second';
