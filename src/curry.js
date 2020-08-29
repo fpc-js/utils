@@ -1,5 +1,5 @@
 import { isInteger, expectFunction } from '@fpc/types';
-import { curry as unsafeCurry } from './internals';
+import { curry as unsafeCurry } from './internals/curry';
 import { failWith } from './failWith';
 
 export const curry = (fn, numArgs = fn.length) => (
