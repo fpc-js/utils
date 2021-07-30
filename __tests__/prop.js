@@ -1,4 +1,4 @@
-import { prop } from '../src';
+import { prop } from '../src/index.js';
 
 test('prop returns `undefined` on non-objects', () => {
   expect(prop(null, 'any')).toBe(undefined);

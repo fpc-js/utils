@@ -1,4 +1,4 @@
-import { failWith } from '../src';
+import { failWith } from '../src/index.js';
 
 const custom = new Error('Custom!');
 

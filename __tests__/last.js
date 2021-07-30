@@ -1,4 +1,4 @@
-import { last } from '../src';
+import { last } from '../src/index.js';
 
 test('last([]) = undefined', () =>
   expect(last([])).toBe(undefined)

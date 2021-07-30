@@ -1,4 +1,4 @@
-import { hasOwnProperty } from '../src';
+import { hasOwnProperty } from '../src/index.js';
 
 test('hasOwnProperty checks whether an object has a specified property', () =>
   expect(hasOwnProperty({ someProp: 1 }, 'someProp')).toBe(true)

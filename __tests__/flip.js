@@ -1,4 +1,4 @@
-import { flip } from '../src';
+import { flip } from '../src/index.js';
 
 const cat = (...args) => args.reduce((x, y) => x + y, '');
 

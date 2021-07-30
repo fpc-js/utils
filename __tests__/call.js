@@ -1,4 +1,4 @@
-import { call } from '../src';
+import { call } from '../src/index.js';
 
 /* eslint-disable no-magic-numbers */
 

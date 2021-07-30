@@ -1,4 +1,4 @@
-import { delay } from '../src';
+import { delay } from '../src/index.js';
 import { isPromise } from '@fpc/types';
 
 test('delay creates a promise', () =>

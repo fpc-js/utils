@@ -1,4 +1,4 @@
-import { lazy } from '../src';
+import { lazy } from '../src/index.js';
 
 /* eslint-disable no-magic-numbers */
 

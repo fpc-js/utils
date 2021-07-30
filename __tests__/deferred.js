@@ -1,4 +1,4 @@
-import { deferred, failWith } from '../src';
+import { deferred, failWith } from '../src/index.js';
 import { isPromise, isFunction } from '@fpc/types';
 
 test('deferred creates a promise', () =>

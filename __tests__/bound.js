@@ -1,4 +1,4 @@
-import { bound } from '../src';
+import { bound } from '../src/index.js';
 
 /* eslint-disable no-magic-numbers */
 

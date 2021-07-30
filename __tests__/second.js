@@ -1,4 +1,4 @@
-import { second } from '../src';
+import { second } from '../src/index.js';
 
 test('second([]) = undefined', () =>
   expect(second([])).toBe(undefined)

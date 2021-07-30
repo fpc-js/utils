@@ -1,4 +1,4 @@
-import { identity } from '../src';
+import { identity } from '../src/index.js';
 
 /* eslint-disable no-magic-numbers */
 

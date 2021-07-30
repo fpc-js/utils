@@ -1,4 +1,4 @@
-import { curry, identity } from '../src';
+import { curry, identity } from '../src/index.js';
 
 /* eslint-disable no-magic-numbers */
 

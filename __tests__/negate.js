@@ -1,4 +1,4 @@
-import { negate, identity } from '../src';
+import { negate, identity } from '../src/index.js';
 
 const not = negate(identity);
 
